@@ -134,7 +134,6 @@ PRODUCT_PACKAGES += \
     libsynaFpSensorTestNwd \
     sensors.grip \
     sensors.ssc \
-    audio.primary.lito \
     com.qti.eeprom.sec2qcconversion \
     com.samsung.sensor.gc02m1 \
     com.samsung.sensor.imx355 \
