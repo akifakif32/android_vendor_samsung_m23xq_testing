@@ -126,6 +126,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m23xq/proprietary/vendor/lib64/camera/w_tof_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/w_tof_calibration.bin
 
 PRODUCT_PACKAGES += \
+    libbauthserver \
     sensors.grip \
     sensors.ssc \
     audio.primary.lito \
@@ -195,7 +196,6 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     com.qti.chi.override \
     lights.lito \
-    libbauthserver \
     libbauthtzcommon \
     libegis_fp_normal_sensor_test \
     libgf_in_system_lib \
